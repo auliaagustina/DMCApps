@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "566585952282",
+    "project_id": "labpercobaanta-68a5f",
+    "storage_bucket": "labpercobaanta-68a5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566585952282:android:649378e83f56de0cefa9a3",
+        "android_client_info": {
+          "package_name": "com.example.labta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566585952282-4sd39hv7m7pao0d6ke0mll1kvpe7oa9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.labta",
+            "certificate_hash": "732e7600023e63a5e008f9ee9a957ad13e45607a"
+          }
+        },
+        {
+          "client_id": "566585952282-4fdvl8kv047k101gc5801v8s6b09unfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ77uh9prfv8YjmeNNsah7LRezKlKsEFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566585952282-4fdvl8kv047k101gc5801v8s6b09unfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

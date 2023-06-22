@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Menu -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/homeGretting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/monserratbold"
+            android:text="Hai, Nama Pengguna"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/black_1"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/homeLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:src="@drawable/logo_dmc_dd" />
+
+    </RelativeLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:visibility="visible"
+                    android:id="@+id/menuRekruitmen"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_rekruitmen"
+                    android:contentDescription="Rekruitmen" />
+
+                <ImageView
+                    android:visibility="visible"
+                    android:id="@+id/menuPeta"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="Peta"
+                    android:src="@drawable/ic_peta" />
+
+                <ImageView
+                    android:visibility="visible"
+                    android:id="@+id/menuLaporAktivitas"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="Lapor Aktivitas"
+                    android:src="@drawable/ic_lapor" />
+
+                <ImageView
+                    android:visibility="visible"
+                    android:id="@+id/menuLaporBencana"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_laporbencana" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/recomendationTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artikel Populer"
+                android:fontFamily="@font/monserratbold"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textColor="@color/black_1"
+                android:paddingBottom="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recommendationReyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"/>
+
+
+
+</LinearLayout>
